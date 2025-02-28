@@ -1,6 +1,7 @@
 import "./App.css";
 import Countercomponent from "./countercomponent";
 import DisplayingData from "./displayingData";
+import Header from "./header";
 // import GlobalAuthentication from "./globalAuthentication";
 import InputstateManagement from "./inputstateManagement";
 import NestedList from "./nestedList";
@@ -21,6 +22,7 @@ function App() {
       {/* <GlobalAuthentication /> */}
       <RenderingList />
       <NestedList />
+      <Header title="Little red ridding hood" />
     </>
   );
 }
