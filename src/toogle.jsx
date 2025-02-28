@@ -14,8 +14,6 @@ const Toogle = () => {
         style={{ color: theme ? "yellow" : "black" }}
         onClick={toggleTheme}
       />
-      {/* <Atom /> */}
-      {/* <button onClick={toggleTheme}>Toggle Theme</button> */}
     </div>
   );
 };

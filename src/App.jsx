@@ -1,7 +1,9 @@
 import "./App.css";
 import Countercomponent from "./countercomponent";
 import DisplayingData from "./displayingData";
+// import GlobalAuthentication from "./globalAuthentication";
 import InputstateManagement from "./inputstateManagement";
+import RenderingList from "./renderingList";
 import SearchBar from "./searchBar";
 import Toogle from "./toogle";
 import UpdateDocumentTitle from "./updateDocumentT";
@@ -15,6 +17,8 @@ function App() {
       <InputstateManagement />
       <UpdateDocumentTitle />
       <Toogle />
+      {/* <GlobalAuthentication /> */}
+      <RenderingList />
     </>
   );
 }
