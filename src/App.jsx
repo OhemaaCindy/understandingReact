@@ -3,6 +3,7 @@ import Countercomponent from "./countercomponent";
 import DisplayingData from "./displayingData";
 // import GlobalAuthentication from "./globalAuthentication";
 import InputstateManagement from "./inputstateManagement";
+import NestedList from "./nestedList";
 import RenderingList from "./renderingList";
 import SearchBar from "./searchBar";
 import Toogle from "./toogle";
@@ -19,6 +20,7 @@ function App() {
       <Toogle />
       {/* <GlobalAuthentication /> */}
       <RenderingList />
+      <NestedList />
     </>
   );
 }
